@@ -1,7 +1,7 @@
 L_SQUAREBRACKET = 256 #regular expression = [
 R_SQUAREBRACKET = 257 #regular expresion = ]
 L_BRACKET = 258 #regular expression = {
-R_BRACKET  259 #regular expresion = }
+R_BRACKET = 259 #regular expresion = }
 POINT = 260 #regular expression = ,
 COLON = 261 #regular expression = :
 LIT_STRING = 262 #regular expression = " .*"
