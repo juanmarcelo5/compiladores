@@ -3,7 +3,14 @@ compiladores
 
 Compiladores FPUNA
 
-Autor: Julio Paciello
+Autores: 
+  Juan Marcelo Barrios Rivas   
+  Gustavo Adan Vera Villalba
 
-Para compilar: gcc anlex.c tablaSimbolos.c -o anlex
+Para compilar: entrando a la terminal de python ejecutar la siguiente linea de   comando:
+
+____________________________________________________________________
+- exec(open("test.py").read())
+____________________________________________________________________ 
+- Lo cual generara un archivo de salida con el testout.txt
 

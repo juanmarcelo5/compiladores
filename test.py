@@ -68,7 +68,7 @@ def numberData(dataFile):
     while (True):
         dataCharacter = dataFile.readline(1)
         if ((dataCharacter == '' or dataCharacter == '\n' or dataCharacter == ',') and (True)) : 
-            #Condicion para que siempre encuentre numeros, caso contrario devuelve error
+            #Condicion para que siempre encuentre numeros, caso contrario continua con la verificacion 
             return 'NUMBER'
             break
     pass
@@ -95,6 +95,7 @@ def writeLine(line):
         outline.write(line)
     outline.close()
 
+#abre el archivo en modo escritura para su posterior salida
 def openFille():
     with open(OUTPUT_FILE,'w') as outline :
         print("")
